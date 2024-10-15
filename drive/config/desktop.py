@@ -6,7 +6,7 @@ def get_data():
         {
             "module_name": "Drive",
             "color": "grey",
-            "icon": "octicon octicon-file-directory",
+            "icon": "assets/drive/frontend/favicon-310x310.png",
             "type": "module",
             "label": _("Drive"),
         }
