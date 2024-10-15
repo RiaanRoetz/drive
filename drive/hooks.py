@@ -16,7 +16,7 @@ website_route_rules = [
 add_to_apps_screen = [
     {
         "name": "drive",
-        "logo": "assets/frontend/favicon-114x114.png",
+        "logo": "assets/drive/logo.svg",
         "title": "Drive",
         "route": "/drive",
         "has_permission": "drive.api.permissions.has_app_permission",
