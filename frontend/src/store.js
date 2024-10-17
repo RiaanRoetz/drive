@@ -22,7 +22,7 @@ const store = createStore({
       systemUser: getCookies().system_user === "yes",
       fullName: getCookies().full_name,
       imageURL: getCookies().user_image,
-      driveAdmin: false,
+      role: false,
     },
     error: {
       iconName: "x-circle",
@@ -33,9 +33,9 @@ const store = createStore({
     uploads: [],
     connectedUsers: [],
     sortOrder: JSON.parse(localStorage.getItem("sortOrder")) || {
-      label: "Modified",
-      field: "modified",
-      ascending: false,
+      label: "Name",
+      field: "title",
+      ascending: true,
     },
     view: JSON.parse(localStorage.getItem("view")) || "grid",
     shareView: JSON.parse(localStorage.getItem("shareView")) || "with",
