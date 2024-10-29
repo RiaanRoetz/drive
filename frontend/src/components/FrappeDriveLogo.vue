@@ -2,7 +2,7 @@
   <svg
     width="118"
     height="118"
-    viewBox="0 0 118 118"
+    viewBox="0 0 688 688"
     fill="none"
     xmlns="http://www.w3.org/2000/svg"
   >
